@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+  }
+
+a{text-decoration: none;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+button:hover{opacity: 0.8;}
+
+.cancelbtn {width: auto;padding: 10px 18px;background-color: #d41011;}
+  
+.imgcontainer {text-align: center;margin: 24px 0 12px 0;}
+  
+.container {padding: 16px;}
+  
+span.psw {padding-top: 0px;}
+
+#divided_div_logo_id 
+{
+    padding-left: 10%;
+}
+
+.div_main_class
+{
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding-left: 120px;
+    padding-right: 0px;
+    padding-top: 10%;
+}
+
+#span_logo_class
+{
+    padding-left: 100%;
+}
+
+#divided_div_Login_form_id 
+{
+    padding-right: 17%;
+}
+
+#form_for_login
+{
+    border: 1px solid #ffffff;padding-left: 0%;
+}
+
+#div_login_form_inset
+{
+    padding-right: 35%;background-color: #f5f5f5;box-shadow: 10px 10px 10px grey, 0 0 10px rgb(7, 7, 7);border-radius: 5px;background: white;
+}
+
+.container 
+{
+    padding: 16px;
+}
+
+.input_class_login_form {
+  width: 150%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1.5px solid #ccc;
+  box-sizing: border-box;
+}
+
+#button_login_submit
+{
+    background-color: #d41011;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150%;
+}
+
+#forgot_password_line
+{
+    padding-left: 45%;
+}
+
+#button_create_account
+{
+    background-color: #42b72a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 144%;
+}
+
+#divided_div_footer
+{
+    background-color: #ffffff;padding-top: 48%;
+}
+
+#div_footer_start
+{
+    background-color: #ececec;font-family: cursive ;font-size: small;width: auto;padding-bottom: 5%;
+}
+
+#div_footer_start a 
+{
+    color: rgb(77, 77, 77);
+    text-decoration: none
+}
+
+#div_footer_start a:visited 
+{
+    color: rgb(77, 77, 77);
+}
+
+#div_footer_start a:hover 
+{
+    color: rgb(90, 90, 90);
+    text-decoration: underline
+}
+
+@keyframes animate1 {
+	0% {
+		color: #d41011;
+	}
+	50% {
+		color: rgb(70, 67, 67);
+	}
+	100% {
+		color: #d41011;
+	}
+}
+@keyframes animate2 {
+	0% {
+		color: rgb(70, 67, 67);
+	}
+	50% {
+		color: #d41011;
+	}
+	100% {
+		color: rgb(70, 67, 67);
+	}
+}
+
+.dividing_signup_form 
+{
+	float: left;
+	width: 33.33%;
+	height: 500px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#dividing_id_signup
+{  
+	border: 2px solid gray;height: 240%;box-shadow: 0px 0px 0px grey, 0px 0px 5px rgb(7, 7, 7);
+	border-radius: 20px;background: white;
+}
+
+#create_new_head
+{
+	font-size: 200%;
+}
+
+.first_sur_name_txt_box
+{border-radius: 5px;
+border: 1.5px solid #ccc;
+box-sizing: border-box;  margin: 8px 0;
+display: inline-block;  padding: 12px 0px;    width: 49%;padding-left: 3%;
+}
+
+.drop_down_box
+{
+	border-radius: 5px;
+border: 1.5px solid #ccc;
+box-sizing: border-box;  margin: 8px 0;
+display: inline-block;  padding: 12px 0px;    width: 32%;padding-left: 3%;
+}
+
+.phone_pass_box
+{
+	width: 99%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border-radius: 5px;
+border: 1.5px solid #ccc;
+box-sizing: border-box;
+}
+
+.span_class_signup
+{
+	border-width: 2px;
+}
+
+.gender_radio_boxes 
+{border-radius: 5px;
+border: 1.5px solid #ccc;
+box-sizing: border-box;  margin: 8px 0;
+display: inline-block;  padding: 12px 0px;    width: 32%;padding-left: 3%;font-size: 13px;
+}
+
+#signip_button_include
+{background-color: #42b72a;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 100%;
+}
+
+#s_part_heading
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(73, 73, 73);
+}
+
+#d_part_heading
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #d41011;
+}
+
+#s_part_heading 
+{
+	text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+	animation: animate1 4s linear infinite;
+}
+
+#d_part_heading 
+{
+	text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+	animation: animate2 4s linear infinite;
+}
+
+@keyframes animate1 {
+	0% {
+		color: #d41011;
+	}
+	50% {
+		color: rgb(70, 67, 67);
+	}
+	100% {
+		color: #d41011;
+	}
+}
+
+@keyframes animate2 {
+	0% {
+		color: rgb(70, 67, 67);
+	}
+	50% {
+		color: #d41011;
+	}
+	100% {
+		color: rgb(70, 67, 67);
+	}
+}
+
+#table_id{
+    width: 48  0px;
+    padding: 10px 10px 20px 10px;
+    border: none solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 10px 15px #aaaaaa;
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color:#eeedf0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
